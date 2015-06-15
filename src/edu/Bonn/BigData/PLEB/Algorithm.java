@@ -41,7 +41,9 @@ public class Algorithm {
 		
 		Point queryPoint=new Point(4, 3);
 		// use binary search to find the smallest r that return "Yes"
-		Point result=binarySearchUtil.search(trainingBalls, queryPoint);
+		//Point result=binarySearchUtil.lineaarSearch(trainingBalls, queryPoint);
+		Point result=binarySearchUtil.binarySearch(trainingBalls, queryPoint);
+
 		System.out.println("the nearest point for the query point is="+result);
 				
 		
